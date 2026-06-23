@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>电力产业链全景图谱 - 机构网址导航</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>⚡ 电力产业链全景图谱</h1>
+            <p class="subtitle">涵盖电力行业上中下游全产业链机构网址导航</p>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="搜索机构名称、简称、网址..." autocomplete="off">
+                <span class="search-icon">🔍</span>
+            </div>
+        </div>
+    </header>
+
+    <nav class="category-nav" id="categoryNav">
+        <div class="container">
+            <button class="nav-btn active" data-category="all">全部</button>
+            <button class="nav-btn" data-category="regulator">监管机构</button>
+            <button class="nav-btn" data-category="grid">两网</button>
+            <button class="nav-btn" data-category="power-group">五大六小</button>
+            <button class="nav-btn" data-category="province-energy">各省能源国企</button>
+            <button class="nav-btn" data-category="association">行业协会</button>
+            <button class="nav-btn" data-category="design-construction">设计施工</button>
+            <button class="nav-btn" data-category="province-gov">各省能源局</button>
+            <button class="nav-btn" data-category="exchange">电力交易</button>
+            <button class="nav-btn" data-category="carbon-green">碳交易/绿证</button>
+            <button class="nav-btn" data-category="media">行业媒体</button>
+            <button class="nav-btn" data-category="equipment">设备供应商</button>
+            <button class="nav-btn" data-category="data-price">数据/价格指数</button>
+            <button class="nav-btn" data-category="procurement">采购/招聘</button>
+            <button class="nav-btn" data-category="research">科研院所</button>
+            <button class="nav-btn" data-category="other">其他</button>
+        </div>
+    </nav>
+
+    <main class="container" id="mainContent">
+        <!-- 内容由JS动态渲染 -->
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>⚡ 电力产业链全景图谱 | 数据持续更新中 | 欢迎贡献补充</p>
+            <p class="footer-note">本页面为开源项目，数据来源于公开信息整理，仅供参考</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" title="回到顶部">↑</button>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
