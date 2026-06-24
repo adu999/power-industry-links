@@ -302,17 +302,22 @@ const industryData = [
         ]
     },
     // --- 15. 售电公司 ---
-    {
-        category: "retail_companies",
-        title: "十五、电力央国企售电公司",
-        items: [
-            { name: "华能售电", abbr: "华能售电", url: "https://www.chng.com.cn/", desc: "华能集团售电业务" },
-            { name: "大唐售电", abbr: "大唐售电", url: "http://www.china-cdt.com/", desc: "大唐集团售电业务" },
-            { name: "华电售电", abbr: "华电售电", url: "http://www.chd.com.cn/", desc: "华电集团售电业务" },
-            { name: "国家电投售电", abbr: "国电投售电", url: "https://www.spic.com.cn/", desc: "国家电投售电业务" },
-            { name: "国家能源集团售电", abbr: "国能售电", url: "https://www.chnenergy.com.cn/", desc: "国家能源集团售电业务" },
-            { name: "三峡售电", abbr: "三峡售电", url: "https://www.ctg.com.cn/", desc: "三峡集团售电业务" },
-            { name: "华润售电", abbr: "华润售电", url: "https://www.cr-power.com/", desc: "华润电力售电业务" }
-        ]
-    }
-];
+{
+    category: "retailers",
+    title: "十五、售电公司",
+    items: [
+        // 发电集团系
+        { name: "华能售电", abbr: "华能售电", url: "https://hnsd.chng.com.cn/", desc: "华能集团旗下售电平台" },
+        { name: "华润售电云平台", abbr: "华润售电", url: "https://www.crplx.com/office/", desc: "华润电力旗下，25家省级售电公司，客服400-0836-666" },
+        // 省能源国企系
+        { name: "广东粤电电力销售有限公司", abbr: "粤电售电", url: "https://www.geg.com.cn/gdyd/zjyd/rczp/xxgk_xsdw/content/post_739.html", desc: "广东能源集团旗下，广东首批售电SD01" },
+        { name: "甘肃电投陇原电力有限公司", abbr: "陇原电力", url: "http://ly.gepic.cn", desc: "甘肃电投旗下，智慧购售电管理平台" },
+        { name: "湖南湘投售电有限公司", abbr: "湘投售电", url: "http://hnxtsd.com", desc: "湖南能源集团旗下" },
+        { name: "四川川投售电有限责任公司", abbr: "川投售电", url: "http://www.scctsd.com.cn", desc: "川投集团旗下" },
+        { name: "陕西能源售电有限责任公司", abbr: "陕能售电", url: "http://www.segcsd.com", desc: "陕投集团旗下" },
+        // 独立 / 民营头部
+        { name: "深圳市深国电售电有限公司", abbr: "深国电", url: "http://www.sgdpower.cn/", desc: "深圳国资系，光储充售一体化" },
+        { name: "鹏峰售电有限公司", abbr: "鹏峰售电", url: "https://pf.sscgeg.com/", desc: "原广东鹏峰，湾区→全国布局，虚拟电厂" },
+        { name: "广东新巨能能源科技有限公司", abbr: "新巨能", url: "https://www.szhangan.net/", desc: "三峡水利核心成员，广东售电第四批SD123" }
+    ]
+}
