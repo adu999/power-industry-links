@@ -79,20 +79,12 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    // 返回顶部按钮（修复：移除重复声明）
+    // 回到顶部
     window.addEventListener('scroll', () => {
-        if (window.scrollY > 400) {
-            backToTop.style.display = 'block';
-        } else {
-            backToTop.style.display = 'none';
-        }
+        backToTop.style.display = window.scrollY > 300 ? 'block' : 'none';
     });
-
     backToTop.addEventListener('click', (e) => {
         e.preventDefault();
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 });
